@@ -25,6 +25,12 @@ This Android app allows users to view YouTube Shorts from a specific YouTube cha
 - Android Studio installed
 - YouTube Data API v3 Key (Follow [this guide](https://developers.google.com/youtube/v3/getting-started) to generate an API key)
 
+## Learn More
+- For more detailed steps on building this app and additional insights, check out:
+- **Medium Article :**: [Link](https://medium.com/@abhisheksuman413/how-to-build-a-youtube-shorts-reels-app-in-android-using-kotlin-and-youtube-data-api-v3-a-d9d1b2f9035e)
+-  **LinkedIn :**  [Link](https://www.linkedin.com/feed/update/urn:li:activity:7244028459922972672/)
+
+  
 ## Getting Started
 
 1. Clone the repository:
