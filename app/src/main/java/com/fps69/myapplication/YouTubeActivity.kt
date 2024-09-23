@@ -7,19 +7,19 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.fps69.Reels.R
+import com.fps69.Reels.databinding.ActivityYouTubeBinding
 import com.fps69.myapplication.Adapter.ShortsAdapter
 import com.fps69.myapplication.DataClass.YouTubeResponse
 import com.fps69.myapplication.Utils.RetrofitInstance
-import com.fps69.myapplication.databinding.ActivityYouTubeBinding
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
 class YouTubeActivity : AppCompatActivity() {
 
-    private val apiKey = "AIzaSyDOGU2rUPvbXjt8gmk-kENJz2ImMAPiW80"
+    private val apiKey = getString(R.string.apikey)
     private val channelId = "UCkvtJk_Ph_kQHkvtNGzmFmQ"
-    private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: ShortsAdapter
 
 

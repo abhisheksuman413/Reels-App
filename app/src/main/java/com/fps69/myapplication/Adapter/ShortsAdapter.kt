@@ -4,17 +4,18 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.webkit.WebView
 import androidx.recyclerview.widget.RecyclerView
+import com.fps69.Reels.databinding.SingleShortItemBinding
 import com.fps69.myapplication.DataClass.VideoItem
-import com.fps69.myapplication.R
-import com.fps69.myapplication.databinding.SingleShortItemBinding
 
 class ShortsAdapter(private val videoItems: List<VideoItem>) :
     RecyclerView.Adapter<ShortsAdapter.ShortsViewHolder>() {
 
-    inner class ShortsViewHolder(val binding: SingleShortItemBinding) : RecyclerView.ViewHolder(binding.root)
+    inner class ShortsViewHolder(val binding: SingleShortItemBinding) :
+        RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ShortsViewHolder {
-        val binding = SingleShortItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        val binding =
+            SingleShortItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ShortsViewHolder(binding)
     }
 

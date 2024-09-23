@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.fps69.myapplication"
+    namespace = "com.fps69.Reels"
     compileSdk = 34
 
     defaultConfig {
