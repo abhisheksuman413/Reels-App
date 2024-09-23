@@ -27,7 +27,7 @@ This Android app allows users to view YouTube Shorts from a specific YouTube cha
 
 ## Learn More
 - For more detailed steps on building this app and additional insights, check out:
-- **Medium Article :**: [Link](https://medium.com/@abhisheksuman413/how-to-build-a-youtube-shorts-reels-app-in-android-using-kotlin-and-youtube-data-api-v3-a-d9d1b2f9035e)
+- **Medium Article :** [Link](https://medium.com/@abhisheksuman413/how-to-build-a-youtube-shorts-reels-app-in-android-using-kotlin-and-youtube-data-api-v3-a-d9d1b2f9035e)
 -  **LinkedIn :**  [Link](https://www.linkedin.com/feed/update/urn:li:activity:7244028459922972672/)
 
   
